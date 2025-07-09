@@ -7,11 +7,14 @@ await reset(db, schema);
 await seed(db, schema).refine((faker) => {
   return {
     rooms: {
-      count: 20,
+      count: 5,
       columns: {
         name: faker.companyName(),
         description: faker.loremIpsum(),
       },
+    },
+    questions: {
+      count: 20,
     },
   };
 });
@@ -19,4 +22,4 @@ await seed(db, schema).refine((faker) => {
 await sql.end();
 
 // biome-ignore lint/suspicious/noConsole: only used in dev
-console.log('Database seedade');
+console.log('Database seeded');

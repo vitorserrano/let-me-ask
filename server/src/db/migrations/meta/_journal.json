@@ -8,6 +8,20 @@
       "when": 1751990689784,
       "tag": "0000_careful_firelord",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1752088490764,
+      "tag": "0001_icy_cannonball",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752091711056,
+      "tag": "0002_thick_diamondback",
+      "breakpoints": true
     }
   ]
 }
